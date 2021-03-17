@@ -1,0 +1,90 @@
+* {
+
+font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+/*banner*/
+
+.banner{
+    background: url(../img/susanfotossitee.jpg) center no-repeat;
+    background-size: cover;
+    height:90vh;
+    padding-top: 20rem;
+    text-align: center;
+    color: rgb(252, 252, 252);
+} 
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.banner__titulo {
+    font-size: 5rem;
+}
+
+.banner__subtitulo {
+    font-size: 2.3rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: rgb(12, 127, 131);
+    text-decoration: none;
+
+}
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 40%;
+}
+
+.sobre__titulo {
+    font-size: 4rem;
+    color: #c4c4c4;
+    text-align: center;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    text-align: left;
+    border: 1px solid #7E459B;
+    text-decoration: none;
+
+}
+        .footer {
+            text-align: center;
+        }
+        
+        .redes-sociais__link {
+            display: inline-block;
+            width: 12%;
+            background-color: #7E459B;
+            padding: 2rem 0;
+            margin: 0 1rem;
+            text-align: center;
+            color: rgb(236, 227, 227);
+        }
+        
+        .redes-sociais_img, .redes-sociais_titulo {
+            margin-bottom: .5rem;
+        }
+        
+        .footer__copy-texto {
+            color: #c4c4c4;
+            font-weight: lighter;
+            margin-top: 3rem;
+            padding: 1rem;
+        }
